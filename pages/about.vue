@@ -10,7 +10,7 @@
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
             Vertex Racing was founded in 2020 with the purpose of taking part in
-            the 2021 F1 in schools competition, the team is made up of five
+            the 2021 F1 in schools competition, the team is made up of four
             members.
           </p>
         </div>
@@ -43,90 +43,9 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
-        <h1 class="display-6 fw-bold">
-          We Joined FLEVAH, An International F1 in Schools Collaboration
-        </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            FLEVAH is a collaboration of six teams from around the world.
-          </p>
-        </div>
-      </div>
-    </div>
+  
 
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
-      <h2 class="pb-2 border-bottom">Collaborators</h2>
-      <div class="row pt-4">
-        <div
-          class="col-lg-4"
-          v-for="collaborator in collaborators"
-          :key="collaborator.name"
-        >
-          <a :href="collaborator.link">
-            <img
-              loading="lazy"
-              :src="require(`~/assets/collaboratorlogos/${collaborator.image}`)"
-              class="img rounded-circle face"
-              alt="..."
-            />
-          </a>
-
-          <h2 class="pt-3">{{ collaborator.name }}</h2>
-          <p>
-            <img
-              style="width: 50px; height: auto"
-              :src="
-                require(`~/assets/collaboratorlogos/flags/${collaborator.flag}`)
-              "
-            />
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      collaborators: [
-        {
-          name: 'Hypernova',
-          image: 'hypernova.webp',
-          link: 'https://hypernovaf1.wixsite.com/hypernova',
-          flag: 'wales.png',
-        },
-        {
-          name: 'ena',
-          image: 'ena.jpg',
-          link: 'https://www.instagram.com/ena_racing/',
-          flag: 'france.png',
-        },
-        {
-          name: 'astro7',
-          image: 'astro7.jpg',
-          link: 'https://www.instagram.com/astro7racing/',
-          flag: 'mexico.png',
-        },
-        {
-          name: 'LaChiron',
-          image: 'lachiron.jpg',
-          link: 'https://fox-wolverine-wgmm.squarespace.com/',
-          flag: 'ireland.png',
-        },
-        {
-          name: 'teamfalco',
-          image: 'teamfalco.jpg',
-          link: 'https://www.instagram.com/teamfalco_f1inschools/',
-          flag: 'india.png',
-        },
+  
       ],
       members: [
         // {
@@ -187,14 +106,20 @@ export default {
         {
           name: 'Justin',
           image: 'justin-new.jpeg',
-          shortDescriptor: `Justin is an F1 enthusiast and swimmer. He enjoys playing videogames and has a passion for engineering.`,
+          shortDescriptor: `Justin is our team manager, an F1 enthusiast and swimmer. He enjoys playing videogames and has a passion for engineering.`,
           longDescriptor: `.`,
         },
         {
           name: 'Luca',
           image: 'luca.jpeg',
-          shortDescriptor: `Luca is the Team's newest member. He is a passionate engineer and is currently building a wind tunnel for his GCSE Coursework. `,
+          shortDescriptor: `Luca is our design and manufacturing enginner. He is a a CAD phenom and is constantly working on our car. `,
           longDescriptor: `.`,
+        {
+          name: 'Saarvin',
+          image: 'saarvin.jpeg',
+          shortDescriptor: `Saarvin is the Team's newest member. He is a passionate spokesperson, and great with our sponsors. `,
+          longDescriptor: `.`,
+      
         },
       ],
     }
