@@ -34,8 +34,8 @@
       </h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">
-          Vertex Racing is a podium-winning F1 in Schools team based in London,
-          UK. Our five Year 11 members have contributed their spare time to
+          Vertex Racing is a 3x National Finalists team based in London,
+          UK. Our four members have contributed their spare time to
           developing a CAM machined foam car.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -121,11 +121,15 @@
       <div class="col-lg-6 mx-auto my-3">
         <p class="lead mb-4">
           In the 2022 season, we achieved 3rd Place in the London North
-          Development Class Competition, and are now preparing to compete in the
-          UK finals in February 2023
+          Professional Class Competition, and placed 5th in the UK National Finals
         </p>
       </div>
     </div>
+      <div class="col-lg-6 mx-auto my-3">
+        <p class="lead mb-4">
+          In the 2023-2024 season, we achieved 2nd Place in regionals and are now on our way to the National Finals.
+        </p>
+      </div>
 
     <div
       class="container px-4 py-5 marketing"
@@ -157,33 +161,21 @@
           <a>
             <img src="~/assets/AREUM_LOGO.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
-        <div class="col-lg-6">
-          <a href="https://heusinkveld.com/">
-            <img src="~/assets/Heusinkveld.webp" class="w-100 sponsorlogo" />
-          </a>
-          <h3 class="pt-3">Silver Sponsor</h3>
-        </div>
+        
         <div class="col-lg-6">
           <a>
             <img src="~/assets/giftnet.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
-        </div>
-
-        <div class="col-lg-6">
-          <a>
-            <img src="~/assets/samsungrehab.PNG" class="w-100 sponsorlogo" />
-          </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
 
         <div class="col-lg-6">
           <a>
             <img src="~/assets/theupharm.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
       </div>
     </div>
